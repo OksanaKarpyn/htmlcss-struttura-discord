@@ -9,6 +9,7 @@ li {
 }
 a{
     text-decoration: none;
+    padding: 10px 15px;
 }
 
 
@@ -38,11 +39,12 @@ a{
 .nav__list{
 
 }
-
+.nav__list ul{
+    display: flex;
+    justify-content: space-between;
+}
 .nav__list li{
-    padding-right: 30px;
-    display: inline-block;
-   
+ margin: 0 10px; 
 }
 
 .nav__btn{
@@ -90,4 +92,96 @@ a{
 
 /* main */
 /* study-container */
-.
+.study__group{
+    margin: 20px 0;
+}
+
+.study__row{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    min-height: 200px;
+    
+}
+
+.study__img{
+   flex-basis: 70%;
+   background-color: cornflowerblue;
+}
+
+
+.study__body{
+    flex-basis: 30%;
+    padding:10px 10px;
+}
+
+.study__title{}
+
+.study__text{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+/*  voice__container*/
+
+.voice__connected{
+    margin: 20px 0;
+    background-color: lightgray;
+}
+
+.voice__row{
+    display: flex;
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+.voice__body{
+    flex-basis: 30%;
+    padding: 10px 10px;
+}
+
+.voice__title{
+
+}
+
+.voice__text{
+    font-size: 12px;
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.voice__img{
+    flex-basis: 70%;
+    background-color: cornflowerblue;
+}
+
+/* coach__container */
+
+.coach{
+    margin: 20px 0;
+}
+
+.coach__row{
+    display: flex;
+    min-height: 200px;
+    border: 1px solid  black;
+}
+
+.coach__img{
+    flex-basis: 70%;
+    background-color: cornflowerblue;
+}
+
+.coach__body{
+    flex-basis: 30%;
+    padding: 10px;
+}
+
+.coach__title{}
+
+.coach__text{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 0;
+}
