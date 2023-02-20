@@ -188,7 +188,7 @@ a{
 /* contact__container */
 
 .contact{
-    margin: 20px 0;
+    padding: 20px 0;
     background-color: lightgray;
 }
 
@@ -229,9 +229,11 @@ a{
     text-align: center;
 }
 .contact__btn button{
-    padding: 10px 10px;
+    padding: 10px 20px;
     background-color: cornflowerblue;
     color: #fff;
+    border: 1px solid cornflowerblue;
+    border-radius: 20px;
     
 }
 .contact__btn button::before{
@@ -239,5 +241,87 @@ a{
     color: #fff;
     margin-right: 5px;
     font-size: 15px;
+}
+
+
+/* footer-container */
+.footer{
+background-color: black;
+padding: 20px 0;
+}
+
+.footer-row{}
+
+
+.list li{
+    padding: 5px 0;
+}
+.list{
+   flex :1 0 auto;
+}
+.list:first-child{
+    flex: 2 0 auto;
+}
+
+.list-row{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-social{
    
+}
+.list-title{
+    color: cornflowerblue;
+}
+
+.list-italiano{
+    padding: 20px 0;
+    color: #fff;
+}
+
+.list-icon img{
+    margin: 0 10px;
+}
+
+.list-product{
+    color: #fff;
+}
+
+.list-company{
+    color: #fff;
+}
+
+.list-resorse{
+    color: #fff;
+}
+
+.list-norme{
+    color: #fff;
+}
+
+hr{
+    border: 1px solid cornflowerblue;
+}
+h5{
+    color:cornflowerblue ;
+}
+
+
+.list-footer{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.list-logo{}
+
+.list-btn{}
+.list-btn button{
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 20px;
 }
