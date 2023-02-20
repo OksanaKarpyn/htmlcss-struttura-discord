@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.nav__bar{
+    padding: 20px 0;
+}
+
+.nav__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo{}
+
+.nav__list{
+
+}
+
+.nav__list li{
+    padding-right: 30px;
+    display: inline-block;
+   
+}
+
+.nav__btn{
+
+}
+.nav__btn button{
+   padding: 5px 10px;
+   border-radius: 10px;
+   border: 1px solid #fff;
+  background-color: #fff;
+}
+
+
+.header__content{
+    padding: 40px;
+    background-color: burlywood;
+    width: 70%;
+    margin: auto;
+}
+
+.header__row{
+    
+}
+
+.header__title{
+    text-align: center;
+    font-size: 24px;
+}
+
+.header__text{}
+
+.header__text p{
+    text-align: center;
+    line-height: 20px;
+}
+
+.header__btn{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.header__btn button{
+   margin-right: 20px;
+}
+
+/* main */
+/* study-container */
+.
