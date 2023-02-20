@@ -185,3 +185,59 @@ a{
     line-height: 20px;
     padding: 10px 0;
 }
+/* contact__container */
+
+.contact{
+    margin: 20px 0;
+    background-color: lightgray;
+}
+
+.contact__row{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.contact__body{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact__title{
+    
+}
+
+.contact__text{
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.contact__img{
+    margin: 20px 0;
+    min-height: 200px;
+    background-color: cornflowerblue;
+}
+
+.contact__subtitle{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contact__btn{
+    margin: 20px 0;
+    text-align: center;
+}
+.contact__btn button{
+    padding: 10px 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    
+}
+.contact__btn button::before{
+    content: '\2193';
+    color: #fff;
+    margin-right: 5px;
+    font-size: 15px;
+   
+}
